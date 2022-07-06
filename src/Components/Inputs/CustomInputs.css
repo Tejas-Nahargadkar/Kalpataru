@@ -1,0 +1,44 @@
+.CustomInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+.CustomInput label{
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.CustomInput input{
+    width: calc(100% - 0.6rem);
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: solid 1px #ffffff;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    color: #1e1e1e;
+}
+.CustomInput .error{
+    border: solid 2px #ce3232
+}
+.CustomInput .span{
+    color: #ce3232;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.CustomInput input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(193, 193, 193);
+    opacity: 1; /* Firefox */
+  }
+  
+.CustomInput input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(193, 193, 193);
+  }
+  
+.CustomInput input::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(193, 193, 193);
+  }
